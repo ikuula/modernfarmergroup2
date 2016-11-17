@@ -13,14 +13,29 @@ background-image: url(https://www.xmple.com/wallpaper/grey-streaks-stripes-lines
     background-position: center top;
 */
 }
-.three {
-    max-width: 30%;
-    min-height: 500px;
+.threeone {
+    max-width: 50%;
     display: inline-block;
     overflow: hidden;
+    margin-right: -4px;
+     border-bottom: solid black 5px;
+    border-top: solid black 5px; 
+}
+.three {
+    max-width: 25%;
+/*    min-height: 500px;*/
+    display: inline-block;
+    overflow: hidden;
+    margin-right: -4px;
+     border-bottom: solid black 5px;
+    border-top: solid black 5px; 
+}
+
+.topthreeone {
+    max-width: 100%;
 }
 .topthree {
-    max-height: 100%;
+    max-width: 200%;
 }
 .rachaelssection{
   width:100%;
@@ -38,7 +53,8 @@ h1 {
     font-size: 50px;
     font-style: italic;
     letter-spacing: 20px;
-    text-align: center;   
+    text-align: center;
+    border: none;
 }
 h3{
  max-width:100%;
@@ -63,11 +79,17 @@ p{
 
 /*--------media query----------*/
 @media (min-width: 700px) {
-
+    .isaac {
+        max-width: 100%;
+        margin: 0 auto;
+    }
 .trending {
+    max-width: 80%;
+     margin: 0 auto;
+    margin-bottom: .25em;
     font-size: 50px;
     font-style: italic;
-    letter-spacing: 60px;
+    letter-spacing: 50px;
     text-align: center;   
 } 
     .trending:hover {
