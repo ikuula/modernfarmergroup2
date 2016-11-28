@@ -12,6 +12,96 @@ background-image: url(https://www.xmple.com/wallpaper/grey-streaks-stripes-lines
     background-size: 100%;
     background-position: center top;
 */
+ 
+ /*Navication and page header.*/
+ 
+ html{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
+}
+
+ul{
+    position: fixed;
+    top: 200px;
+    width: 100%;
+	list-style:none;
+	color: black;
+	text-align:center;
+	
+}
+
+
+li{
+	display:inline;
+	float:left;
+    width: 14%;
+  	font-size: 1.25em;
+	
+	
+	
+}
+
+.hero{
+	padding-top: 0px;
+  	position:absolute;
+   	width:100%;
+   text-align: center;
+  
+}
+
+.logo{
+	position:absolute;
+	width: 200px;
+	margin: 0px 0px -200px -100px; 
+	transition: all .4s ease-in-out; }
+
+.logo:hover { 
+	transform: scale(1.1);
+ }
+	
+
+
+
+.click-logo{
+	position:fixed;
+	margin: 	50px 0px 100px -550px;
+}
+
+.click-logo:hover{
+	transform: scale(1.1);
+	}
+	
+
+a{
+	text-decoration: none;
+	color: black;
+
+
+}
+
+.subscribe{
+	position:fixed;
+	margin: 75px 0px 0px 450px;	
+	font-size: 1.1em;
+}
+
+.subscribe:hover{
+	transform: scale(1.1);
+}
+
+.grow { 
+-webkit-transition:ease-in-out;
+	transition: all .4s ease-in-out;
+	}
+
+.grow:hover { 
+	-webkit-transform:scale(1.1);
+	transform: scale(1.1);
+	color:#659E44;
+	
+	
+	 }
+/*end of nav header*/
+ 
 }
 .threeone {
     max-width: 50%;
