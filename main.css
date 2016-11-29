@@ -13,7 +13,14 @@ background-image: url(https://www.xmple.com/wallpaper/grey-streaks-stripes-lines
 */
  
  /*Navication and page header.*/
- body {
+* {
+   -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+} 
+
+
+body {
  font-family: georgia;
 } 
  html{
