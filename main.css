@@ -3,8 +3,7 @@
  Hoping it will help out the guys writing our code.
  Feel free to change it so it's not just a bunch of articles about potatoes haha!
  Ill add the more links when we get going a little further.. :) */
-body {
- font-family: georgia;
+
 /*
 background-image: url(https://www.xmple.com/wallpaper/grey-streaks-stripes-lines-white-1920x1080-c2-d3d3d3-fdf5e6-l2-56-56-a-30-f-1.svg);
     background-attachment: fixed;
@@ -14,125 +13,109 @@ background-image: url(https://www.xmple.com/wallpaper/grey-streaks-stripes-lines
 */
  
  /*Navication and page header.*/
- 
+ body {
+ font-family: georgia;
+} 
  html{
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
 }
 
-ul{
+
+/*----------------alecia-----------*/
+ul [id=fixednav] {
     position: fixed;
     top: 200px;
     width: 100%;
 	list-style:none;
 	color: black;
-	text-align:center;
-	
+	text-align:center;	
 }
-
-
 li{
 	display:inline;
 	float:left;
     width: 14%;
-  	font-size: 1.25em;
-	
-	
-	
+  	font-size: 1.25em;	
 }
-
-.hero{
-	padding-top: 0px;
-  	position:absolute;
-   	width:100%;
-   text-align: center;
-  
-}
-
-.logo{
-	position:absolute;
-	width: 200px;
-	margin: 0px 0px -200px -100px; 
-	transition: all .4s ease-in-out; }
-
-.logo:hover { 
-	transform: scale(1.1);
- }
-	
-
-
-
-.click-logo{
-	position:fixed;
-	margin: 	50px 0px 100px -550px;
-}
-
-.click-logo:hover{
-	transform: scale(1.1);
-	}
-	
-
 a{
 	text-decoration: none;
 	color: black;
-
-
 }
-
+.hero{
+	padding-top: 0px;
+   	width:100%;
+   text-align: center;
+    background: white;
+    
+}
+.logo{
+	position:relative;
+	width: 200px;
+	margin: 0px 0px 200px -100px; 
+	transition: all .4s ease-in-out; 
+}
+.logo:hover { 
+	transform: scale(1.1);
+ }
+.click-logo{
+	position:fixed;
+	margin: 50px 0px 100px -550px;
+}
+.click-logo:hover{
+	transform: scale(1.1);
+}
 .subscribe{
 	position:fixed;
 	margin: 75px 0px 0px 450px;	
 	font-size: 1.1em;
 }
-
 .subscribe:hover{
 	transform: scale(1.1);
 }
-
 .grow { 
 -webkit-transition:ease-in-out;
 	transition: all .4s ease-in-out;
-	}
-
+}
 .grow:hover { 
 	-webkit-transform:scale(1.1);
 	transform: scale(1.1);
-	color:#659E44;
-	
-	
-	 }
+	color:#659E44;	
+}
 /*end of nav header*/
- 
+
+/*-------isaac------------------*/
 }
 .threeone {
     max-width: 50%;
+    height: 300px;
     display: inline-block;
     overflow: hidden;
     margin-right: -4px;
-     border-bottom: solid black 5px;
+    border-bottom: solid black 5px;
     border-top: solid black 5px; 
 }
 .three {
     max-width: 25%;
-/*    min-height: 500px;*/
+    height: 300px;
     display: inline-block;
     overflow: hidden;
     margin-right: -4px;
-     border-bottom: solid black 5px;
+    border-bottom: solid black 5px;
     border-top: solid black 5px; 
 }
 
 .topthreeone {
-    max-width: 100%;
+    max-width: 50%;
 }
 .topthree {
     max-width: 200%;
 }
+
+/*----------rachael/isaac---------*/
+
 .rachaelssection{
   width:100%;
-  
   text-align:left;
 }
-
 img{
   max-width:100%;
 }
@@ -157,7 +140,6 @@ p{
   margin:auto;
   padding-top:10px;
 }
-
 .column {
   display:block;
   width:100%;
@@ -169,11 +151,14 @@ p{
 
 
 /*--------media query----------*/
+/*-----------------------------*/
+
 @media (min-width: 700px) {
-    .isaac {
-        max-width: 100%;
-        margin: 0 auto;
-    }
+    
+.isaac {
+     max-width: 100%;
+    margin: 0 auto;
+}
 .trending {
     max-width: 80%;
      margin: 0 auto;
@@ -181,14 +166,26 @@ p{
     font-size: 50px;
     font-style: italic;
     letter-spacing: 50px;
-    text-align: center;   
+    text-align: center; 
+    margin-top: 3em;
 } 
-    .trending:hover {
-      letter-spacing: 20px;  
-        transition: 3s;
-    }
+.trending:hover {
+    letter-spacing: 20px;  
+    transition: 3s;
+}
+.three,
+.threeone {
+        position: relative;
+}    
+.isaac h3 {
+    position:absolute;
+    color: white;
+    text-shadow: 5px 5px 2px black;
+    bottom: 1%;
+    padding: 1em;    
+}    
     
-    
+/*------------rachael-----------*/
 .rachaelssection{
   width:80%;
   margin: 0 auto;
@@ -198,9 +195,11 @@ p{
     display:inline-block;
     max-width:30%;
     margin-right: 2%;
-  }
 }
 .container {
 /*    border-top: solid black 5px;*/
     margin-bottom: 5em;
+}
+    
+    
 }
