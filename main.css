@@ -156,6 +156,42 @@ p{
   vertical-align: top;
 }
 
+/*---------Footer Cara---------*/
+
+.footer {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    left:-1px;
+    height: 130px;
+    background: black;
+    clear: both;
+}
+
+ul {
+    width:500px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+li{
+    width: 10em;
+    line-height:1.5em;
+    float:left;
+    display:inline;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer li a:hover {
+    text-decoration:none;
+    
+}
+
+/*--------end of footer--------*/
 
 /*--------media query----------*/
 /*-----------------------------*/
