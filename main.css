@@ -212,6 +212,7 @@ h1 {
     right: -1px;
     left:-1px;
 */
+    position: relative;
     height: 220px;
     background: black;
     clear: both;  
