@@ -302,6 +302,21 @@ li{
 /*    border-top: solid black 5px;*/
     margin-bottom: 2em;
 }
+	
+/*----social icons arnoldo-----*/
+.social {
+    max-width: 50%;
+    position: absolute;
+    left: 90%;
+    
+    top: 1.5em;
+    
+}
+.social a {
+    display: block;
+    max-width: 35px;
+}
+   	
 /*----------------isaac-----------*/    
     .container div:last-of-type {
         margin-right: 0%;
