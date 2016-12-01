@@ -238,6 +238,19 @@ li{
     color: tomato;
 }
 
+/*----social icons arnoldo-----*/
+.social {
+    max-width: 50%;
+    position: absolute;
+    left: 2.25em;
+    bottom: 1.5em;
+    
+}
+.social a {
+    display: inline-block;
+    max-width: 35px;
+}
+
 /*--------end of footer--------*/
 
 /*--------media query----------*/
